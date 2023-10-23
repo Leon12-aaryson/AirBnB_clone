@@ -7,4 +7,5 @@ footer {
 	justify-content: center;
 	position: fixed;
 	display: flex;
+	line-height: 60px;
 }
