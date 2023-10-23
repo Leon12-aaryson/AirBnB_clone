@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-from models.engine.file_storage import FileStorage
+from .engine.file_storage import FileStorage
 
+# create an instance of FileStorage
 storage = FileStorage()
+
+# Call the reload() method
 storage.reload()
